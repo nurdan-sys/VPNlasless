@@ -1,0 +1,17 @@
+@media(max-width: 1024px){
+  .container{
+    max-width: 980px;
+    padding: 0 15px;
+  }
+  
+  .col-4{
+    width: 100%;
+  }
+  .col-6{
+    width: 100%;
+  }
+  
+  .map-pic{
+    width: 100%;
+  }
+}

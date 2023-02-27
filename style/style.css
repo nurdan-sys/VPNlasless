@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    height: 90px;
+}
+
+.link{
+    margin-left: 25px;
+    text-decoration-line: none;
+    color: #4F5665;
+    font-size: 16px;
+}
+
+.btn-signin{
+    margin-right: 20px;
+    width: 53px;
+    height: 19px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+}
+
+.btn-signup{
+    width: 150px;
+    height: 45px;
+    border: 1px solid 
+    #F53855;
+    color: #f53838;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 400px;
+}
+.btn-signup:hover{
+    background-color: #f53838;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(245, 56, 56, 0.2);
+}
+
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.col-4{
+    width: 33.3%;
+    padding: 0 15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.laptop-img{
+    background-image: url(../assets/Illustration\ 1.png);
+    width: 611px;
+    height: 382px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.firework-guy{
+    background-image: url(../assets/Illustration\ 2.png);
+    width: 509px;
+    height: 415px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 95px;
+}
+
+.laptop-text{
+    width: 555px;
+    height: 140px;
+    margin-top: 130px;
+}
+
+h1{
+    font-size: 35px;
+    font-family: Rubik;
+
+}
+
+h2{
+    font-weight: 500px;
+    font-size: 50px;
+    line-height: 70px;
+    font-family: Rubik;
+}
+p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-family: Rubik;
+}
+h3{
+    font-family: Rubik;
+}
+button{
+    font-family: Rubik;
+    font-weight: 700;
+}
+a{
+    font-family: Rubik;
+    font-weight: 400; 
+}
+
+.btn-gets{
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 50px;
+    color: #f53838;
+    border: 2px solid #f53838;
+}
+
+.btn-gets:hover{
+    background-color: #f53838;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(245, 56, 56, 0.2);
+}
+
+.site-info{
+    margin-top: 170px;
+    display: flex;
+    width: 1140px;
+    height: 200px;
+}
+.users{
+    margin-right: 230px;
+}
+
+.locations{
+    margin-right: 230px;
+}
+.servers{
+    margin-right: 260px;
+}
+
+.box-fireworktext{
+    margin-top: 196px;
+}
+.p-text1{
+    margin-top: 20px;
+    width: 427px;
+    height: 60px;
+
+}
+.check{
+    margin-right: 12.5px;
+    margin-bottom: -4px;
+}
+.box-yourplan{
+    border: 2px solid #DDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 760px;
+    padding: 76px 20px 50px;
+    border-radius: 10px;
+}
+.select-info{
+    margin: auto 0 0;
+}
+.box-yourplan svg{
+    margin-right: 28px;
+}
+.advantage-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-yourplan h3{
+    margin: 30px 0;
+}
+.plan-wrapper{
+    width: 500px;
+    margin: 0 auto 60px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.select-info button{
+    border: 2px solid #f53838;
+    padding: 13px 63px;
+    border-radius: 50px;
+    background-color: white;
+    color: #f53838;
+    font-weight: 500;
+}
+.select-info h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box-yourplan:hover{
+    border-color: #F53855;
+}
+.box-yourplan:hover button{
+    background-color: #f53838;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(245, 56, 56, 0.2);
+}
+
+span{
+    color: #4F5665;
+    font-weight: 400;
+}
+
+/* .huge-title{
+    width: 383px;
+    margin: 0 auto 60px;
+    text-align: center;
+    margin-top: 200px;
+} */
+
+
+.map-pic{
+    width: 100%;
+    text-align: center;
+}
+.sponsors{
+    margin-left: 145px;
+}
+
+.warsava{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-profile{
+    border: 2px solid #DDDD;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+/* .box-profile img{
+    margin-right: 150px;
+} */
+.box-profile p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.box-profile h1{
+    font-size: 18px;
+}
+
+.box-profile:hover{
+    border-color: #F53855;
+}
+/* .btn-direction:hover button{
+    background-color: #f53838;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(245, 56, 56, 0.2);
+} */
+
+.direction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.btn-direction button{
+    border-radius: 44px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #f53838;
+    background-color: white;
+    color: #f53838;
+    font-size: 20px;
+}
+
+.btn-right:hover{
+    background-color: #f53838;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(245, 56, 56, 0.2);
+}
+.btn-left:hover{
+    background-color: #f53838;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(245, 56, 56, 0.2);
+}
+
+.svg-direction{
+    margin-top: 30px;
+}
+
+.apendix-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 146px;
+    width: 1140px;
+    height: 233px;
+    margin: 0 auto;
+    margin-top: 183px;
+}
+
+.apendix-title h1{
+    width: 371px;
+}
+
+.apendix-btn button{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    color: #f53838;
+    border: 2px solid #f53838;
+}
+
+.apendix-btn:hover button{
+    background-color: #f53838;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(245, 56, 56, 0.2);
+}
+
+footer{
+    background-color: #F8F8F8;
+    height: 563px;
+    margin-top: -120px;
+}
+
+footer p{
+    color: #4F5665;
+}
+
+.step-one p{
+    width: 340px;
+    height: 62px;
+}
+.box-footer{
+    margin-top: 180px;
+}
+
+.box-footer nav{
+    width: 132px;
+    height: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.box-product{
+    margin-top: 180px;
+    margin-left: 230px;
+}
+
+.box-engage{
+    margin-top: 180px;
+    margin-left: 129px;
+}
+
+.box-earn{
+    margin-top: 180px;
+    margin-left: 180px;
+}
