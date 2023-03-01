@@ -4,6 +4,137 @@
     padding: 0 15px;
   }
   
+  /* .col-4{
+    width: 100%;
+  }
+  .col-6{
+    width: 100%;
+  }
+  
+  .col-3{
+    width: 100%;
+  } */
+  
+.links a{
+  display: none;
+}
+
+.box-footer{
+  
+}
+
+.box-product{
+  display: none;
+}
+
+.box-engage{
+  display: none;
+}
+
+.box-earn{
+  display: none;
+}
+
+
+  .map-pic img{
+    width: 100%;
+    height: 100%;
+  }
+  .sponsors img{
+    width: 100%;
+    height: 100%;
+  }
+  .laptop-img img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .laptop-text h2{
+    font-size: 30px;
+  }
+  .laptop-text p{
+    font-size: 13px;
+  }
+  .apendix-main{
+    width: 100%;
+  }
+
+  .site-info{
+    width: 100%;
+  }
+  .footer{
+    display: none;
+  }
+  .firework-guy img{
+    width: 100%;
+    height: 100%;
+    margin-top: 122px;
+  }
+
+  .firework-text h1{
+    font-size: 25px;
+  }
+  .firework-text p{
+    font-size: 13px;
+  }
+
+.plan-wrapper h1{
+  font-size: 25px;
+}
+.plan-wrapper p{
+  font-size: 13px;
+}
+
+.box-yourplan h3{
+  font-size: 13px;
+}
+.box-yourplan img{
+  /* width: 100%; */
+  height: 100%;
+}
+.advantage-wrapper p{
+  font-size: 13px;
+}
+
+  .box-earn{
+    margin-left: 144px;
+  }
+  .footer-social{
+    width: 50px;
+  }
+  .btn-direction button{
+    padding: 15px 14px;
+  }
+  .reviewer h1{
+    font-size: 14px;
+  }
+  .reviewer p{
+    margin-top: -4px;
+  }
+  .box-profile p{
+    font-size: 12px;
+  }
+  .apendix-title h1{
+    font-size: 25px;
+  }
+  .apendix-title p{
+    font-size: 13px;
+  }
+  .apendix-btn button{
+    padding: 15px 44px;
+  }
+  .btn-gets {
+    padding: 15px 65px;
+}
+}
+
+
+@media(max-width: 700px){
+  .container{
+    max-width: 650px;
+    padding: 0 15px;
+  }
+  
   .col-4{
     width: 100%;
   }
@@ -11,7 +142,257 @@
     width: 100%;
   }
   
-  .map-pic{
+  .col-3{
     width: 100%;
   }
+  
+.links a{
+  display: none;
+}
+
+
+.box-product{
+  display: none;
+}
+
+.box-engage{
+  display: none;
+}
+
+.box-earn{
+  display: none;
+}
+
+
+  .map-pic img{
+    width: 100%;
+    height: 100%;
+  }
+  .sponsors img{
+    width: 100%;
+    height: 100%;
+  }
+  .laptop-img img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .laptop-text h2{
+    font-size: 25px;
+  }
+  .laptop-text p{
+    font-size: 11px;
+  }
+  .apendix-main{
+    width: 100%;
+  }
+
+  .site-info{
+    width: 100%;
+  }
+  .footer{
+    display: none;
+  }
+  .firework-guy img{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 122px; */
+  }
+
+  .firework-text h1{
+    font-size: 20px;
+  }
+  .firework-text p{
+    font-size: 10px;
+  }
+
+.plan-wrapper h1{
+  font-size: 20px;
+}
+.plan-wrapper p{
+  font-size: 11px;
+}
+
+.box-yourplan h3{
+  font-size: 11px;
+}
+.box-yourplan img{
+  /* width: 100%; */
+  height: 100%;
+}
+.advantage-wrapper p{
+  font-size: 11px;
+}
+
+  .box-earn{
+    margin-left: 144px;
+  }
+  .footer-social{
+    width: 50px;
+  }
+  .btn-direction button{
+    padding: 11px 10px;
+  }
+  .reviewer h1{
+    font-size: 12px;
+  }
+  .reviewer p{
+    margin-top: -4px;
+  }
+  .box-profile p{
+    font-size: 11px;
+  }
+  .apendix-title h1{
+    font-size: 20px;
+  }
+  .apendix-title p{
+    font-size: 11px;
+  }
+  .apendix-btn button{
+    padding: 15px 44px;
+  }
+  .btn-gets {
+    padding: 15px 65px;
+}
+}
+
+@media(max-width: 370px){
+  .container{
+    max-width: 250px;
+    padding: 0 15px;
+  }
+  
+
+  .col-4{
+    width: 100%;
+  }
+  .col-6{
+    width: 100%;
+  }
+  
+  /* .col-3{
+    width: 100%;
+  } */
+  
+.links a{
+  display: none;
+}
+
+.btn-signin{
+  display: none;
+}
+
+.btn-signup{
+  display: none;
+}
+
+.box-product{
+  display: none;
+}
+
+.box-engage{
+  display: none;
+}
+
+.box-earn{
+  display: none;
+}
+
+
+  .map-pic img{
+    width: 100%;
+    height: 100%;
+  }
+  .sponsors img{
+    width: 100%;
+    height: 100%;
+  }
+  .laptop-img img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .laptop-text h2{
+    font-size: 20px;
+  }
+  .laptop-text p{
+    font-size: 11px;
+  }
+  .apendix-main{
+    width: 100%;
+  }
+
+  .site-info{
+    width: 100%;
+  }
+  .footer{
+    display: none;
+  }
+  .firework-guy img{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 122px; */
+  }
+
+  .firework-text h1{
+    font-size: 20px;
+  }
+  .firework-text p{
+    font-size: 11px;
+  }
+
+.plan-wrapper h1{
+  font-size: 20px;
+}
+.plan-wrapper p{
+  font-size: 11px;
+}
+
+.box-yourplan h3{
+  font-size: 11px;
+}
+.box-yourplan img{
+  /* width: 100%; */
+  height: 100%;
+}
+.advantage-wrapper p{
+  font-size: 10px;
+}
+
+  .box-earn{
+    margin-left: 144px;
+  }
+  .footer-social{
+    width: 50px;
+  }
+  .btn-direction button{
+    padding: 2px 3px;
+  }
+
+.svg-direction{
+  display: none;
+}
+
+  .reviewer h1{
+    font-size: 12px;
+  }
+  .reviewer p{
+    margin-top: -4px;
+  }
+  .box-profile p{
+    font-size: 11px;
+  }
+  .apendix-title h1{
+    font-size: 15px;
+  }
+  .apendix-title p{
+    font-size: 11px;
+  }
+  .apendix-btn button{
+    padding: 1px 0px;
+  }
+  .btn-gets {
+    padding: 11px 25px;
+}
+
 }
